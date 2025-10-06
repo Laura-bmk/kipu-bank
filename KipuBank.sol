@@ -240,4 +240,3 @@ contract KipuBank {
     }
 }
 
-// Adress 0xcBdCfc27594745fbaCA662164927a78Bb6e82416
