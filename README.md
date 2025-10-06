@@ -1,8 +1,7 @@
 # 🏦 KipuBank
 
 ## 📄 Descripción del contrato
-KipuBank es un smart contract desarrollado en Solidity que permite a los usuarios depositar y retirar Ether (ETH) de su propia bóveda personal.  
-Cada usuario tiene un balance individual y puede interactuar con el contrato enviando y retirando fondos bajo ciertas condiciones de seguridad.  
+KipuBank es un smart contract desarrollado en Solidity que permite a los usuarios depositar y retirar Ether (ETH) de su propia bóveda personal. Cada usuario tiene un balance individual y puede interactuar con el contrato enviando y retirando fondos bajo ciertas condiciones de seguridad.  
 
 El contrato implementa las siguientes características:
 
@@ -70,7 +69,7 @@ También puede depositarse enviando Ether directamente a la dirección del contr
      - `_bankCap`: `1000000000000000000` (1 ETH) → límite global del contrato.  
    - Hacé clic en **Deploy**.  
 
-> 💡 Nota: los valores en wei reflejan las cantidades de ETH para la prueba; podés ajustar según necesites.  
+> 💡 Nota: los valores en wei reflejan las cantidades de ETH para la prueba; se puede ajustar.  
 
 ---
 
@@ -86,7 +85,8 @@ También puede depositarse enviando Ether directamente a la dirección del contr
 ## 🏷️ Contrato desplegado
 
 - **Dirección en Sepolia:**  
-  `0xcBdCfc27594745fbaCA662164927a78Bb6e82416`  
+  `0xcBdCfc27594745fbaCA662164927a78Bb6e82416`
+  
 - **Código verificado en Etherscan:**  
   [https://sepolia.etherscan.io/address/0xcBdCfc27594745fbaCA662164927a78Bb6e82416#code](https://sepolia.etherscan.io/address/0xcBdCfc27594745fbaCA662164927a78Bb6e82416#code)  
 
