@@ -18,7 +18,7 @@ contract KipuBankUpgrade {
 
     /// @notice Dirección del creador del contrato.
     /// @dev Se marca como immutable ya que se fija al desplegar el contrato.
-    address public immutable OWNER;
+    address public immutable owner;
 
     /// @notice Límite máximo que un usuario puede retirar en una sola transacción.
     /// @dev Fijado en el constructor, no puede modificarse luego.
@@ -115,7 +115,7 @@ contract KipuBankUpgrade {
      * @param _bankCap Límite global total de fondos permitidos en el contrato.
      */
     constructor(uint256 _limitPerTx, uint256 _bankCap) {
-        OWNER = msg.sender;
+        owner = msg.sender;
         limitPerTx = _limitPerTx;
         bankCap = _bankCap;
     }
