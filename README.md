@@ -84,7 +84,7 @@ También puede depositarse enviando Ether directamente a la dirección del contr
 
 ## 🏷️ Contrato desplegado
 
-- **Adress contract:**  
+- **Contract address.:**  
   `0xcBdCfc27594745fbaCA662164927a78Bb6e82416`
   
 - **Código verificado en Etherscan:**  
